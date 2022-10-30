@@ -1,0 +1,92 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>img/151063767_429005728336484_2086052602840462546_n.png</file>
+        <file>img/add-button.png</file>
+        <file>img/african-american-policeman-writing-report-wearing-uniform-cop-guard-JKJG2T.jpg</file>
+        <file>img/ascending-sort.png</file>
+        <file>img/authentification.png</file>
+        <file>img/button.png</file>
+        <file>img/car-accident.png</file>
+        <file>img/conversation.png</file>
+        <file>img/delete.png</file>
+        <file>img/edit.png</file>
+        <file>img/empty.png</file>
+        <file>img/eye.png</file>
+        <file>img/instagram-stories.png</file>
+        <file>img/mailbox.png</file>
+        <file>img/note.png</file>
+        <file>img/physical-abuse.png</file>
+        <file>img/pie-chart.png</file>
+        <file>img/police.png</file>
+        <file>img/police-station.png</file>
+        <file>img/printer.png</file>
+        <file>img/text-message.png</file>
+        <file>img/viewer.png</file>
+        <file>img/icons8-edit.gif</file>
+        <file>img/icons8-edit-48.png</file>
+        <file>img/icons8-email-send-240.png</file>
+        <file>img/images.png</file>
+        <file>img/lock.png</file>
+        <file>img/logo (2).png</file>
+        <file>img/music-player-1446499-1222214.png</file>
+        <file>img/password.png</file>
+        <file>img/pdclogin.png</file>
+        <file>img/play.png</file>
+        <file>img/player-navigation-icons-play-stop-and-pause-vector-.png</file>
+        <file>img/player-navigation-icons-play-stop-and-pause-vector-5509880.png</file>
+        <file>img/pngtree-vector-high-volume-icon-png-image_313059.jpg</file>
+        <file>img/pngtree-vector-high-volume-icon-png-image_313059.png</file>
+        <file>img/policeman-background_48369-15139.jpg</file>
+        <file>img/policeman-hold-shield-wearing-helmet-uniform-cop-guard-brick-background_48369-15139.jpg</file>
+        <file>img/prisonBreak.mp3</file>
+        <file>img/stop.png</file>
+        <file>img/trashh.jpg</file>
+        <file>img/user.png</file>
+        <file>img/icons8-delete-48.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>img/151063767_429005728336484_2086052602840462546_n.png</file>
+        <file>img/icons8-close-window-48.png</file>
+        <file>img/icons8-delete-48.png</file>
+        <file>img/icons8-doughnut-chart-100.png</file>
+        <file>img/icons8-edit.gif</file>
+        <file>img/icons8-email-send-240.png</file>
+        <file>img/icons8-futures-100.png</file>
+        <file>img/icons8-go-back-48.png</file>
+        <file>img/icons8-home-240.png</file>
+        <file>img/icons8-mailbox-240.png</file>
+        <file>img/icons8-pie-chart-100.png</file>
+        <file>img/icons8-send-to-printer-240.png</file>
+        <file>img/icons8-statistics-100.png</file>
+        <file>img/images.png</file>
+        <file>img/back.jpg</file>
+        <file>img/icons8-edit-48.png</file>
+        <file>img/icons8-mailbox-48.png</file>
+        <file>img/policeman-background_48369-15139.jpg</file>
+        <file>img/policeman-hold-shield-wearing-helmet-uniform-cop-guard-brick-background_48369-15139.jpg</file>
+        <file>img/icons8-trash-can-48.png</file>
+        <file>img/policeman-writing-report-wearing-uniform-cop-guard-brick-background_48369-15138.jpg</file>
+        <file>img/policier-travaillant-ordinateur-portant-flic-uniforme-dans-bureau-garde-fond-brique_48369-15140.jpg</file>
+        <file>img/handcuffs (1).png</file>
+        <file>img/icons8-police-badge-100.png</file>
+        <file>img/police (1).png</file>
+        <file>img/police-station (2).png</file>
+        <file>img/52328332_2078164858899734_1395457921264910336_n.png</file>
+        <file>img/71877099_1515757621897753_1533596121182502912_n.png</file>
+        <file>img/79646791_2555477274559182_3424678394934067200_n.png</file>
+        <file>img/82385804_2643811335712023_8677046488792039424_n.png</file>
+        <file>img/182484728_1001694200366980_6117544729765152706_n.png</file>
+        <file>img/182486389_729248067754259_6659584539846534587_n.png</file>
+        <file>img/182621297_495351015044474_391931727743189441_n.png</file>
+        <file>img/182895477_888405928672833_3764222974050923583_n.png</file>
+        <file>img/183097748_793064294947771_710383781197153546_n.png</file>
+        <file>img/183414194_466884714594269_7112138142974174459_n.png</file>
+        <file>img/oval.png</file>
+        <file>img/overpopulation.png</file>
+        <file>img/play.png</file>
+        <file>img/player-navigation-icons-play-stop-and-pause-vector-.png</file>
+        <file>img/player-navigation-icons-play-stop-and-pause-vector-5509880.png</file>
+        <file>img/stop.png</file>
+        <file>img/logout.png</file>
+    </qresource>
+</RCC>

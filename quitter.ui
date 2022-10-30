@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>quitter</class>
+ <widget class="QDialog" name="quitter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>322</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des conges</string>
+  </property>
+  <widget class="QStackedWidget" name="dateEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>671</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>200</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font-family: &quot;Roboto&quot;, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #2c3e50;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+
+}
+QPushButton:hover
+{
+
+    background: #3498db;
+}
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>oui</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/Downloads/administrative-tools.png</normaloff>:/Downloads/administrative-tools.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>200</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font-family: &quot;Roboto&quot;, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #2c3e50;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+
+}
+QPushButton:hover
+{
+
+    background: #3498db;
+}
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>non</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/Downloads/delete-forever.png</normaloff>:/Downloads/delete-forever.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>651</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/policeman-background_48369-15139.jpg) 1 1 1 1 stretch stretch;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>10</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/151063767_429005728336484_2086052602840462546_n.png) 1 1 1 1 stretch stretch;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>140</y>
+       <width>251</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #000000;
+  font-size: 18px;</string>
+     </property>
+     <property name="text">
+      <string>vous voulez vraiment quitter?</string>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>pushButton_2</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+   </widget>
+   <widget class="QWidget" name="page_2"/>
+   <widget class="QWidget" name="page_3"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

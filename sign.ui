@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sign</class>
+ <widget class="QDialog" name="sign">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>652</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>631</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit
+{
+
+background :qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(139, 140, 138, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;
+color : #717072;
+font-family:century;
+border-bottom:1px solid#717072;
+
+font-size:20px;
+
+}
+
+
+QLineEdit:hover
+{
+background : qconicalgradient(cx:0, cy:0, angle:264, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(167, 255, 53, 255));
+border-radius:10px;
+color : #717072;
+border-bottom:1px solid rgb(17, 0, 255);
+font-family:century;
+
+}
+
+#label{
+font-family:century gothic;
+font-size:30px;
+color :qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(139, 140, 138, 255), stop:1 rgba(255, 255, 255, 255));
+}
+#FuseSmart{
+
+    subcontrol-position: right center;
+    subcontrol-origin: padding;
+    left: -2px;
+	border-radius:1px;
+}
+
+#label_errur
+{
+color: rgb(255, 30, 0);
+font-size:10px;
+}
+QLineEdit:focus
+{
+background : qconicalgradient(cx:0, cy:0, angle:264, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(167, 255, 53, 255));
+border-radius:10px;
+color : #717072;
+border-bottom:1px solid rgb(81, 255, 0);
+font-family:century;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>Voulez-vous créer un compte </string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-size: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Mot de passe:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="email">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-size: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Code de Sécurité:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="sec">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>320</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-size: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Telephone:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tel_2">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>199</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="mdp">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>260</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-size: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Adresse Email:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nom">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>420</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background : qlineargradient(spread:pad, x1:0.467, y1:0, x2:0.482, y2:1, stop:0 rgba(22, 85,110, 255), stop:1 rgba(95, 196, 208, 255));
+border-radius:15px;
+color:white;
+}
+QPushButton:hover
+{
+background:qlineargradient(spread:pad, x1:0.457286, y1:0.381, x2:0.508, y2:1, stop:0 rgba(95, 196, 208, 255), stop:1 rgba(22, 85,110, 255))
+}</string>
+    </property>
+    <property name="text">
+     <string>Envoyer</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/img/icons8-police-badge-100.png</normaloff>:/img/icons8-police-badge-100.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>420</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background : qlineargradient(spread:pad, x1:0.467, y1:0, x2:0.482, y2:1, stop:0 rgba(22, 85,110, 255), stop:1 rgba(95, 196, 208, 255));
+border-radius:15px;
+color:white;
+}
+QPushButton:hover
+{
+background:qlineargradient(spread:pad, x1:0.457286, y1:0.381, x2:0.508, y2:1, stop:0 rgba(95, 196, 208, 255), stop:1 rgba(22, 85,110, 255))
+}</string>
+    </property>
+    <property name="text">
+     <string>Annuler</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/img/icons8-police-badge-100.png</normaloff>:/img/icons8-police-badge-100.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-size: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Nom Utilisateur:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>370</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 0, 0);
+font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Contient 6 chiffres et lettres !</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>721</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/img/policeman-writing-report-wearing-uniform-cop-guard-brick-background_48369-15138.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  font-size: 25px;</string>
+    </property>
+    <property name="text">
+     <string>S'inscrire</string>
+    </property>
+   </widget>
+   <zorder>plainTextEdit_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>email</zorder>
+   <zorder>label_6</zorder>
+   <zorder>sec</zorder>
+   <zorder>label_3</zorder>
+   <zorder>tel_2</zorder>
+   <zorder>mdp</zorder>
+   <zorder>label_2</zorder>
+   <zorder>nom</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>label_7</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

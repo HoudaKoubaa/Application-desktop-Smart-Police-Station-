@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonFollowStyle</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLineEdit
+{
+
+background :qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(139, 140, 138, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;
+color : #717072;
+font-family:century;
+border-bottom:1px solid#717072;
+
+}
+
+
+QLineEdit:hover
+{
+background : qconicalgradient(cx:0, cy:0, angle:264, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(167, 255, 53, 255));
+border-radius:10px;
+color : #717072;
+border-bottom:1px solid rgb(17, 0, 255);
+font-family:century;
+
+}
+
+#label{
+font-family:century gothic;
+font-size:24px;
+color :qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(139, 140, 138, 255), stop:1 rgba(255, 255, 255, 255));
+}
+#FuseSmart{
+
+    image: url(IMG/logo.png);
+    subcontrol-position: right center;
+    subcontrol-origin: padding;
+    left: -2px;
+	border-radius:1px;
+}
+
+#label_errur
+{
+color: rgb(255, 30, 0);
+font-size:10px;
+}
+QLineEdit:focus
+{
+background : qconicalgradient(cx:0, cy:0, angle:264, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(167, 255, 53, 255));
+border-radius:10px;
+color : #717072;
+border-bottom:1px solid rgb(81, 255, 0);
+font-family:century;
+}
+image: url(:/image/img/151063767_429005728336484_2086052602840462546_n.png);</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>50</y>
+       <width>371</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>century gothic</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  font-size: 17px;</string>
+     </property>
+     <property name="text">
+      <string>Se connecter à Smart Police Station</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="user">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>130</y>
+       <width>331</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Utilisateur</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="password">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>200</y>
+       <width>331</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Mot de passe</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>290</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background : qlineargradient(spread:pad, x1:0.467, y1:0, x2:0.482, y2:1, stop:0 rgba(22, 85,110, 255), stop:1 rgba(95, 196, 208, 255));
+border-radius:15px;
+color:white;
+}
+QPushButton:hover
+{
+background:qlineargradient(spread:pad, x1:0.457286, y1:0.381, x2:0.508, y2:1, stop:0 rgba(95, 196, 208, 255), stop:1 rgba(22, 85,110, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>Se connecter</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/img/icons8-police-badge-100.png</normaloff>:/img/icons8-police-badge-100.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/image/img/151063767_429005728336484_2086052602840462546_n.png);</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>120</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/police (1).png);</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>200</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/handcuffs (1).png);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_errur">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>320</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton1">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>290</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background : qlineargradient(spread:pad, x1:0.467, y1:0, x2:0.482, y2:1, stop:0 rgba(22, 85,110, 255), stop:1 rgba(95, 196, 208, 255));
+border-radius:15px;
+color:white;
+}
+QPushButton:hover
+{
+background:qlineargradient(spread:pad, x1:0.457286, y1:0.381, x2:0.508, y2:1, stop:0 rgba(95, 196, 208, 255), stop:1 rgba(22, 85,110, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>s'incrire</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/img/icons8-police-badge-100.png</normaloff>:/img/icons8-police-badge-100.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>811</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/policeman-writing-report-wearing-uniform-cop-guard-brick-background_48369-15138.jpg);</string>
+     </property>
+    </widget>
+    <zorder>plainTextEdit_5</zorder>
+    <zorder>label</zorder>
+    <zorder>user</zorder>
+    <zorder>password</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>plainTextEdit_2</zorder>
+    <zorder>plainTextEdit_3</zorder>
+    <zorder>plainTextEdit_4</zorder>
+    <zorder>label_errur</zorder>
+    <zorder>pushButton1</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
